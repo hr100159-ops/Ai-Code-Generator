@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Upload, Trash2, FileCode, Terminal } from 'lucide-react'
 import { C, F, R } from '../lib/tokens'
-import { Btn, FieldGroup, useToast } from './UI'
+import { Btn , useToast } from './UI'
 
 function fmtSize(n) { return n < 1024 ? `${n}b` : `${(n / 1024).toFixed(1)}kb` }
 
