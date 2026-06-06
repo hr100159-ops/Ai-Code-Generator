@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Upload, Trash2, FileCode, Terminal } from 'lucide-react'
 import { C, F, R } from '../lib/tokens'
-import { Btn, useToast } from './UI'
+import { Btn, FieldGroup, useToast } from './UI'
 
 function fmtSize(n) { return n < 1024 ? `${n}b` : `${(n / 1024).toFixed(1)}kb` }
 
@@ -66,7 +66,7 @@ export default function KnowledgeBaseTab({ docs, onAddFiles, onAddDoc, onRemove,
             <Btn size="sm" onClick={handleAddPaste}>Add to KB</Btn>
           </div>
         </div>
-        <textarea value={pasteContent} onChange={e => setPasteContent(e.target.value)} placeholder="Paste jBASE subroutine here..." style={{ width: '100%', minHeight: 150, display: 'block', fontFamily: F.mono, fontSize: 12.5, lineHeight: 1.65, background: '#f8f9fc', border: 'none', color: C.text, padding: '13px 16px', outline: 'none', resize: 'vertical' }} />
+        <textarea value={pasteContent} onChange={e => setPasteContent(e.target.value)} placeholder="Paste jBASE subroutine here..." style={{ width: '100%', minHeight: 150, display: 'block', fontFamily: F.mono, fontSize: 12.5, lineHeight: 1.65, background: '#f5f5f5', border: 'none', color: C.text, padding: '13px 16px', outline: 'none', resize: 'vertical' }} />
       </div>
 
       {/* Doc list */}

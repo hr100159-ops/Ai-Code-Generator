@@ -1,33 +1,33 @@
-// Vexora AI Design Tokens — Light Theme
-// All colours, spacing, typography in one place
+// Vexora AI Design Tokens — Bank Alfalah Theme
+// White + Red + Dark Grey
 
 export const C = {
-  bg:         '#f5f6fa',
-  bg2:        '#ffffff',
-  bg3:        '#f0f2f7',
-  bg4:        '#e8ebf2',
-  bg5:        '#dde1ec',
+  bg:         '#ffffff',
+  bg2:        '#f8f8f8',
+  bg3:        '#f0f0f0',
+  bg4:        '#e8e8e8',
+  bg5:        '#dedede',
 
-  border:     'rgba(0,0,0,0.07)',
-  border2:    'rgba(0,0,0,0.11)',
-  border3:    'rgba(0,0,0,0.20)',
+  border:     'rgba(0,0,0,0.08)',
+  border2:    'rgba(0,0,0,0.13)',
+  border3:    'rgba(0,0,0,0.22)',
 
-  text:       '#1a1f2e',
-  text2:      '#4a5568',
-  text3:      '#8896b0',
-  text4:      '#b0bcd0',
+  text:       '#1a1a1a',
+  text2:      '#444444',
+  text3:      '#888888',
+  text4:      '#bbbbbb',
 
-  accent:     '#2b7de9',
-  accentDim:  'rgba(43,125,233,0.10)',
+  accent:     '#cc0000',
+  accentDim:  'rgba(204,0,0,0.08)',
 
-  green:      '#16a370',
-  greenDim:   'rgba(22,163,112,0.10)',
-  amber:      '#c47d0a',
-  amberDim:   'rgba(196,125,10,0.10)',
-  red:        '#d03232',
-  redDim:     'rgba(208,50,50,0.10)',
-  purple:     '#6f4ecf',
-  purpleDim:  'rgba(111,78,207,0.10)',
+  green:      '#1a7a4a',
+  greenDim:   'rgba(26,122,74,0.09)',
+  amber:      '#b06800',
+  amberDim:   'rgba(176,104,0,0.09)',
+  red:        '#cc0000',
+  redDim:     'rgba(204,0,0,0.08)',
+  purple:     '#5a3ea0',
+  purpleDim:  'rgba(90,62,160,0.09)',
 }
 
 export const F = {

@@ -10,8 +10,8 @@ const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'qwen2.5:7b'
 
 // Claude models per task type
 const CLAUDE_MODELS = {
-  chat:     'claude-haiku-4-5-20251001',   // fast + cheap for quick queries
-  analysis: 'claude-sonnet-4-20250514',    // full power for generation + review
+  chat:     'claude-haiku-4-5-20251001',   // latest Haiku — fast + cheap for quick queries
+  analysis: 'claude-opus-4-8',             // latest Opus — full power for generation + review
 }
 
 exports.handler = async (event) => {

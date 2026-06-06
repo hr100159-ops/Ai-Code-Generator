@@ -29,7 +29,7 @@ export default function Sidebar({ activeTab, onTabChange, kbCount, hasOutput }) 
     : health?.claude?.configured
 
   return (
-    <aside style={{ width: 220, flexShrink: 0, background: C.bg2, borderRight: `1px solid ${C.border}`, display: 'flex', flexDirection: 'column' }}>
+    <aside style={{ width: 220, flexShrink: 0, background: '#ffffff', borderRight: '1px solid #e8e8e8', borderTop: '3px solid #cc0000', display: 'flex', flexDirection: 'column' }}>
 
       {/* Brand */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '20px 16px 18px', borderBottom: `1px solid ${C.border}` }}>
