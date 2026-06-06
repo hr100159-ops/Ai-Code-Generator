@@ -121,9 +121,9 @@ export function CodeBlock({ code }) {
         {copied ? '✓ copied' : 'copy'}
       </button>
       <pre style={{
-        background: C.bg, border: `1px solid ${C.border}`, borderRadius: R.lg,
+        background: '#f8f9fc', border: `1px solid ${C.border}`, borderRadius: R.lg,
         padding: '18px 20px', overflowX: 'auto', fontFamily: F.mono,
-        fontSize: 12.5, lineHeight: 1.65, color: C.text, whiteSpace: 'pre', tabSize: 4, margin: 0,
+        fontSize: 12.5, lineHeight: 1.65, color: '#2d3748', whiteSpace: 'pre', tabSize: 4, margin: 0,
       }}>
         {code}
       </pre>

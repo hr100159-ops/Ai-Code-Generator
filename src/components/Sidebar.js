@@ -43,7 +43,7 @@ export default function Sidebar({ activeTab, onTabChange, kbCount, hasOutput }) 
         </div>
         <div>
           <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: C.text, lineHeight: 1.3 }}>T24 Code Studio</div>
-          <div style={{ fontSize: 10, color: C.text3, letterSpacing: '0.04em', marginTop: 1 }}> AI · R22</div>
+          <div style={{ fontSize: 10, color: C.text3, letterSpacing: '0.04em', marginTop: 1 }}>Vexora AI · R22</div>
         </div>
       </div>
 

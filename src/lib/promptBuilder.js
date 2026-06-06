@@ -83,7 +83,7 @@ export function buildChatPrompt({ message, kbDocs, conversationHistory }) {
     .map(m => `${m.role === 'user' ? 'Developer' : 'Assistant'}: ${m.content}`)
     .join('\n')
 
-  return `You are a senior Temenos T24 R22 consultant and jBASE expert ( AI). Answer concisely and technically. Focus on T24/jBASE specifics.${kbSection}
+  return `You are a senior Temenos T24 R22 consultant and jBASE expert (Vexora AI). Answer concisely and technically. Focus on T24/jBASE specifics.${kbSection}
 
 ${history ? `\nConversation so far:\n${history}\n` : ''}
 Developer: ${message}

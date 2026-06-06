@@ -1,4 +1,4 @@
-# T24 AI Code Studio —  AI Standard Stack
+# T24 AI Code Studio — Vexora AI Standard Stack
 
 React 18 + Netlify Functions + Claude/Ollama dual provider
 
@@ -79,7 +79,7 @@ ollama serve                  # starts on :11434
 ## Project Structure
 
 ```
-t24-/
+t24-vexora/
 ├── netlify.toml
 ├── package.json
 ├── public/
@@ -136,4 +136,4 @@ vectorstore = Chroma(persist_directory="./chroma_db", embedding_function=embeddi
 
 ---
 
-Built by  AI. T24 R22 · jBASE · Anthropic Claude · Ollama.
+Built by Vexora AI. T24 R22 · jBASE · Anthropic Claude · Ollama.

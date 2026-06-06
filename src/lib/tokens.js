@@ -1,33 +1,33 @@
-//  AI Design Tokens
+// Vexora AI Design Tokens — Light Theme
 // All colours, spacing, typography in one place
 
 export const C = {
-  bg:         '#0e1117',
-  bg2:        '#141820',
-  bg3:        '#1a2030',
-  bg4:        '#1f2738',
-  bg5:        '#252d42',
+  bg:         '#f5f6fa',
+  bg2:        '#ffffff',
+  bg3:        '#f0f2f7',
+  bg4:        '#e8ebf2',
+  bg5:        '#dde1ec',
 
-  border:     'rgba(255,255,255,0.06)',
-  border2:    'rgba(255,255,255,0.10)',
-  border3:    'rgba(255,255,255,0.18)',
+  border:     'rgba(0,0,0,0.07)',
+  border2:    'rgba(0,0,0,0.11)',
+  border3:    'rgba(0,0,0,0.20)',
 
-  text:       '#e8eaf0',
-  text2:      '#8b9bb8',
-  text3:      '#5a6880',
-  text4:      '#3a4660',
+  text:       '#1a1f2e',
+  text2:      '#4a5568',
+  text3:      '#8896b0',
+  text4:      '#b0bcd0',
 
-  accent:     '#3b8beb',
-  accentDim:  'rgba(59,139,235,0.14)',
+  accent:     '#2b7de9',
+  accentDim:  'rgba(43,125,233,0.10)',
 
-  green:      '#3ecf8e',
-  greenDim:   'rgba(62,207,142,0.11)',
-  amber:      '#f0a040',
-  amberDim:   'rgba(240,160,64,0.11)',
-  red:        '#e05555',
-  redDim:     'rgba(224,85,85,0.11)',
-  purple:     '#9b7fe8',
-  purpleDim:  'rgba(155,127,232,0.11)',
+  green:      '#16a370',
+  greenDim:   'rgba(22,163,112,0.10)',
+  amber:      '#c47d0a',
+  amberDim:   'rgba(196,125,10,0.10)',
+  red:        '#d03232',
+  redDim:     'rgba(208,50,50,0.10)',
+  purple:     '#6f4ecf',
+  purpleDim:  'rgba(111,78,207,0.10)',
 }
 
 export const F = {
@@ -42,7 +42,6 @@ export const R = {
   xl: 14,
 }
 
-// Shorthand style helpers
 export const px = n => typeof n === 'number' ? `${n}px` : n
 
 export const card = {

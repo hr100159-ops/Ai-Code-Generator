@@ -83,7 +83,7 @@ export default function OutputTab({ result, loading, statusMsg, module: mod, mod
                 <Section title={`Similar Patterns (${result.similar_routines.length})`} icon="⊕" iconColor="purple">
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
                     {result.similar_routines.map((item, i) => (
-                      <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px', background: C.bg, border: `1px solid ${C.border}`, borderRadius: R.md }}>
+                      <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px', background: C.bg3, border: `1px solid ${C.border}`, borderRadius: R.md }}>
                         <span style={{ fontFamily: F.mono, fontSize: 12, color: C.accent, flex: 1 }}>{item.name}</span>
                         <span style={{ fontSize: 12, color: C.text3 }}>{item.desc}</span>
                         <span style={{ fontFamily: F.mono, fontSize: 10, background: C.greenDim, color: C.green, padding: '2px 6px', borderRadius: R.sm }}>{item.score}%</span>
