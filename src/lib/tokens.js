@@ -1,4 +1,4 @@
-// Vexora AI Design Tokens — Bank Alfalah Theme
+//  AI Design Tokens — Bank Alfalah Theme
 // White + Red + Dark Grey
 
 export const C = {
