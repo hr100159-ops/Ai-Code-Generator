@@ -1,4 +1,4 @@
-// Vexora AI Design Tokens
+//  AI Design Tokens
 // All colours, spacing, typography in one place
 
 export const C = {

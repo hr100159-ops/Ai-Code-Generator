@@ -1,5 +1,5 @@
 // netlify/functions/generate.js
-// Vexora AI — T24 Code Studio
+//  AI — T24 Code Studio
 // Supports: Claude (Haiku/Sonnet) and Ollama (Qwen2.5/Llama3.1)
 // Switch via: LLM_PROVIDER=claude | LLM_PROVIDER=ollama
 
